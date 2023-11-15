@@ -8,7 +8,7 @@
 const arr1 = [1, 5, 4, 10, 0, 3];
 
 for (let i = 0; i <= arr1.length; i++) {
-   
+
     console.log(arr1[i]);
 
     if (arr1[i] === 10) {
@@ -43,7 +43,7 @@ console.log(arr2.join(' '));
 // [[1, 1, 1], [1, 1, 1], [1, 1, 1]]
 // .
 
-const arr3 = [[],[],[]];
+const arr3 = [[], [], []];
 
 for (let i = 0; i < 3; i++) {
     for (let j = 0; j < 3; j++) {
@@ -112,7 +112,7 @@ console.log(someString.split('').reverse().join(''));
 // Выведите в консоль массив вида: 
 // [1, 2, 3, 4, 5, 6]
 
-const arr7 = [[1, 2, 3],[4, 5, 6]];
+const arr7 = [[1, 2, 3], [4, 5, 6]];
 
 console.log(arr7.flat());
 
@@ -128,9 +128,9 @@ const arr8 = [];
 let j = 0;
 
 for (let i = 0; i < 7; i++) {
-    arr8.push(Math.floor(Math.random() * 10)+1);
+    arr8.push(Math.floor(Math.random() * 10) + 1);
     if (j < 7 && j > 0) {
-         console.log(arr8[j-1] + arr8[j]);
+        console.log(arr8[j - 1] + arr8[j]);
     }
     j++;
 }
@@ -141,7 +141,7 @@ for (let i = 0; i < 7; i++) {
 
 const square = function (arr) {
     return arr.map((x) => x ** 2);
-} 
+}
 
 // Задание 12
 // Создайте функцию, которая принимает на вход массив строк, а возвращает массив длины слов.
@@ -150,14 +150,14 @@ const square = function (arr) {
 
 const getLengthWords = function (arr) {
     return arr.map((x) => x.length);
-} 
+}
 
 
 // Задание 13
 // Создайте функцию, которая принимает на вход массив целых чисел, а возвращает массив содержащий только отрицательные значения.
 
 function filterPositive(array) {
-  return array.filter((x) => x < 0);
+    return array.filter((x) => x < 0);
 }
 
 // filterPositive([-1, 0, 5, -10, 56]); // => [-1, -10]

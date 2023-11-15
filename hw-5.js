@@ -20,13 +20,13 @@ const oddOrEven = function (a) {
 // 3.1. Напишите функцию, которая принимает параметром число и выводит в консоль квадрат этого числа.
 
 const squareToConsole = function (a) {
-    console.log(a**2);
+    console.log(a ** 2);
 }
 
 // 3.2. Напишите функцию, которая принимает параметром число и возвращает квадрат этого числа.
 
 const square = function (a) {
-    return a**2;
+    return a ** 2;
 }
 
 
@@ -62,8 +62,8 @@ const smallTalk = function () {
 // Если оба параметра — числа, то вернуть произведение данных чисел.
 
 const validateAndMultiply = function (a, b) {
- 
-    if (isNaN(a*1) || isNaN(b*1)) {
+
+    if (isNaN(a * 1) || isNaN(b * 1)) {
         return 'Одно или оба значения не являются числом';
     } else {
         return a * b;
@@ -81,13 +81,13 @@ const validateAndMultiply = function (a, b) {
 //  включительно.
 
 const thirdPower = function () {
- 
+
     let a = prompt('введите число');
 
-    if (isNaN(a*1)) {
+    if (isNaN(a * 1)) {
         return 'Переданный параметр не является числом';
     } else {
-        return `${a} в кубе равняется ${a**3}`;
+        return `${a} в кубе равняется ${a ** 3}`;
     }
 }
 
@@ -105,19 +105,19 @@ const thirdPower = function () {
 const circle1 = {
     radius: 5,
     getArea: function () {
-        return this.radius**2*Math.PI;
+        return this.radius ** 2 * Math.PI;
     },
     getPerimeter: function () {
-        return this.radius*2*Math.PI;
+        return this.radius * 2 * Math.PI;
     },
 }
 
 const circle2 = {
     radius: 2,
     getArea: function () {
-        return this.radius**2*Math.PI;
+        return this.radius ** 2 * Math.PI;
     },
     getPerimeter: function () {
-        return this.radius*2*Math.PI;
+        return this.radius * 2 * Math.PI;
     },
 }

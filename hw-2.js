@@ -48,7 +48,7 @@ alert(output);
 // alert()
 // .
 
-let result = 2**5;
+let result = 2 ** 5;
 alert(result);
 
 // Задание 6
@@ -66,7 +66,7 @@ alert(result);
 
 let a1 = 9;
 let b1 = 2;
-let mod = a1%b1;
+let mod = a1 % b1;
 alert(mod);
 
 // Задание 7
@@ -186,6 +186,6 @@ let userName = prompt('Как Вас зовут?');
 alert(`Привет, ${userName}!`);
 
 
-// Подсказка: вставить 
+// Подсказка: вставить
 // !
 //  можно через кавычки
